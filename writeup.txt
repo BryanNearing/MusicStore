@@ -1,0 +1,28 @@
+This is the music store capstone project for SimpliLearn.
+
+The goal of this project was to put all of our info into action to create a fully functioning music store portal.
+
+The functionality of this website is as follows:
+
+1) When you first enter the website at localhost:8080, you are at the homescreen with navbar links at the top for the products, login, home, and register.
+
+2) If you are registered with the site already you may log in, if you are not, then there is a registration page for users to create an account.
+
+3) You may nagivate to the products tab to view all of the store's products
+   All products have a detail button which will bring you to a detailed view of the product where you can add it to your cart.
+   You may search all of the products by name in the searchbar at the top of the products page.
+   
+4) You may not checkout your cart until you are logged in and any attempt to checkout your cart without being logged in will send you to the login page.
+
+5) Once logged in, you may go to the tab with your username at the top in the navbar and edit any of the information in your profile at any time.
+
+6) If logged in, you may checkout your cart for ordering, and the website will take you to an order confirmation page to confirm everything in your cart for ordering.
+
+7) Once your cart has been confirmed for ordering, you are taken to a payment information page where you can enter in your payment info for the order and hit the "pay" button.
+
+8) After payment, your order is confirmend and you are sent back to the homepage .
+
+9) There is additional functionality for admins, if your account is the admin account you have 3 option.
+	1) Manage all of the orders, this gives you a detailed overview of the orders
+	2) Manage all of the users, this gives you a detailed overview of the users
+	3) Manage all of the Products, gives you the ability to add and delete products from the database
